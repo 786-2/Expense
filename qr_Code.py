@@ -1,5 +1,5 @@
 import streamlit as st
-# from db import *
+from db import *
 import qrcode
 import time
 import os
