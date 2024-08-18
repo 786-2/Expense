@@ -1,4 +1,4 @@
-# import mysql.connector
+import mysql.connector
 # con is a connection object
 con=mysql.connector.connect(host='localhost',user='root',password='Shaikh@786',database='Qr_Code',port='3306')
 if con:
