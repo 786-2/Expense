@@ -12,7 +12,7 @@ import numpy as np # for encryption and decription
 st.title("Welcome to QrCode Generator")
 choice = st.sidebar.selectbox("Menu",['Create','Read','Update','Delete','Decode','About']) #
 timestrf1 = time.strftime("%Y%m%d-%H%M%S")
-qr = qrcode.QRCode(version=1,error_correction=qrcode.constants.ERROR_CORRECT_L,box_size=10,border=14)
+# qr = qrcode.QRCode(version=1,error_correction=qrcode.constants.ERROR_CORRECT_L,box_size=10,border=14)
 def load_image(img):
     im=Image.open(img)
     return im
