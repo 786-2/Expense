@@ -1,6 +1,6 @@
 import streamlit as st
 from db import *
-import qrcode
+# import qrcode
 import time
 import os
 from PIL import Image # for image
