@@ -7,7 +7,7 @@ from PIL import Image # for image
 import pandas as pd
 import numpy as np # for encryption and decription
 # import cv2 # for digital computer visualiztaion machine learning
-from pyzbar.pyzbar import decode # it can install using (pyzbar version for python 3.12) and open first link and at the bottom open link and download vcredist_x64.exe
+# from pyzbar.pyzbar import decode # it can install using (pyzbar version for python 3.12) and open first link and at the bottom open link and download vcredist_x64.exe
 
 st.title("Welcome to QrCode Generator")
 choice = st.sidebar.selectbox("Menu",['Create','Read','Update','Delete','Decode','About']) #
